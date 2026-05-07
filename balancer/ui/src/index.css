@@ -1,40 +1,44 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Player Sans Mono';
+  font-family: "Player Sans Mono";
   font-style: normal;
   font-weight: 100 300;
-  src: url("/balancer/fonts/PlayerSansMono8x8-Light.woff2") format("woff2"),
+  src:
+    url("/balancer/fonts/PlayerSansMono8x8-Light.woff2") format("woff2"),
     url("/balancer/fonts/PlayerSansMono8x8-Light.woff") format("woff"),
     url("/fonts/PlayerSansMono8x8-Light.woff2") format("woff2"),
     url("/fonts/PlayerSansMono8x8-Light.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'fonts/Player Sans Mono';
+  font-family: "fonts/Player Sans Mono";
   font-style: normal;
   font-weight: 400 600;
-  src: url("/balancer/fonts/PlayerSansMono8x8-Classic.woff2") format("woff2"),
+  src:
+    url("/balancer/fonts/PlayerSansMono8x8-Classic.woff2") format("woff2"),
     url("/balancer/fonts/PlayerSansMono8x8-Classic.woff") format("woff"),
     url("/fonts/PlayerSansMono8x8-Classic.woff2") format("woff2"),
     url("/fonts/PlayerSansMono8x8-Classic.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'fonts/Player Sans Mono';
+  font-family: "fonts/Player Sans Mono";
   font-style: normal;
   font-weight: 700 900;
-  src: url("/balancer/fonts/PlayerSansMono8x8-Bold.woff2") format("woff2"),
+  src:
+    url("/balancer/fonts/PlayerSansMono8x8-Bold.woff2") format("woff2"),
     url("/balancer/fonts/PlayerSansMono8x8-Bold.woff") format("woff"),
     url("/fonts/PlayerSansMono8x8-Bold.woff2") format("woff2"),
     url("/fonts/PlayerSansMono8x8-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'fonts/Player Sans Mono';
+  font-family: "fonts/Player Sans Mono";
   font-style: italic;
   font-weight: 400 600;
-  src: url("/balancer/fonts/PlayerSansMono8x8-Italic.woff2") format("woff2"),
+  src:
+    url("/balancer/fonts/PlayerSansMono8x8-Italic.woff2") format("woff2"),
     url("/balancer/fonts/PlayerSansMono8x8-Italic.woff") format("woff"),
     url("/fonts/PlayerSansMono8x8-Italic.woff2") format("woff2"),
     url("/fonts/PlayerSansMono8x8-Italic.woff") format("woff");
@@ -136,7 +140,6 @@
   @media (prefers-color-scheme: dark) {
     :root {
       --background: #424242;
-      ;
       --background-highlight: #2d3848;
       --font-color: #fefefe;
       --font-color-highlight: #cbd5df;
