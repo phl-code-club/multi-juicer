@@ -28,7 +28,7 @@ export function InfoPanel({ notification }: InfoPanelProps) {
         }}
       >
         <img
-          src="/balancer/favicon.svg"
+          src="/balancer/ufo.png"
           alt={intl.formatMessage({
             id: "ctf.info_panel.logo_alt",
             defaultMessage: "UFO",
