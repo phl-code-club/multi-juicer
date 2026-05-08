@@ -26,7 +26,7 @@ RUN --mount=type=cache,target=/root/.npm \
   npm run build
 
 # get the challenges from the juice-shop image
-FROM docker.io/phl-code-club/juice-shop:${JUICE_SHOP_VERSION} AS juice-shop
+FROM ghcr.io/phl-code-club/juice-shop:${JUICE_SHOP_VERSION} AS juice-shop
 # convert them to json so that we don't need to pull in a yaml lib
 FROM docker.io/mikefarah/yq:4 AS challenges-json
 COPY --from=juice-shop /juice-shop/data/static/challenges.yml /workdir/challenges.yaml
