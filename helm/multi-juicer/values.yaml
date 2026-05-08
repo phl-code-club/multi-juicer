@@ -98,8 +98,8 @@ config:
   teamPasscodeLength: 12
   juiceShop:
     # -- Juice Shop Image to use
-    image: bkimminich/juice-shop
-    tag: v19.1.1
+    image: ghcr.io/phl-code-club/juice-shop
+    tag: v0.0.0-intergalactic-bazaar
     imagePullSecrets: []
     imagePullPolicy: IfNotPresent
     # -- Change the key when hosting a CTF event. This key gets used to generate the challenge flags. See: https://pwning.owasp-juice.shop/companion-guide/latest/part4/ctf.html#_overriding_the_ctf_key

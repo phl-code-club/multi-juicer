@@ -28,16 +28,16 @@ export function InfoPanel({ notification }: InfoPanelProps) {
         }}
       >
         <img
-          src="/balancer/favicon.svg"
+          src="/balancer/ufo.png"
           alt={intl.formatMessage({
             id: "ctf.info_panel.logo_alt",
-            defaultMessage: "MultiJuicer Logo",
+            defaultMessage: "UFO",
           })}
           className="h-[1.4em] w-auto align-middle"
         />
         <FormattedMessage
           id="ctf.info_panel.title"
-          defaultMessage="MultiJuicer CTF"
+          defaultMessage="Intergalactic Bazaar"
         />
       </h1>
       {hasNotification && (
